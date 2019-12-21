@@ -1,0 +1,20 @@
+A function to return the sum of two numbers
+- Save the value of the first number to a variable
+- save the value of the second number to a variable
+- create a third variable
+- assign the third variable to the sum of the first two variables
+- return the third variables
+
+a function that takes an array of strings, and returns a string that is all those
+ strings concatenated together
+
+ - declare variable to ""
+ - iterate through array of strings
+    - add each string to blank string variable
+  - return variables
+
+a function that takes an array of integers, and returns a new array with every other element
+- declare variable assigned to empty array
+- iterate through arr of integers
+  - if index is even, add to empty array
+- return empty array
