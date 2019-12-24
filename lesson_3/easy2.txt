@@ -1,0 +1,36 @@
+Question 1-
+- let advice = "Few things in life are as important as house training your pet dinosaur.";
+- advice.replace('important', 'urgent');
+
+Question 2-
+-let numbers = [1, 2, 3, 4, 5];
+let reversed = numbers.slice().reverse();
+
+let sorted = numbers.slice().sort();
+
+Question 3-
+- numbers.includes(number);
+
+Question 4-
+- "Four score and " + famousWords;
+- "Four score and ".concat(famousWords);
+
+Question 5-
+- arr.splice(2, 1)
+
+Question 6-
+flintstones = [].concat(...flintstones);
+
+Question 7-
+arr = Object.entries(flintstones)[2];
+
+Question 8-
+numbers.isArray();
+table.isArray();
+
+Question 9-
+statement.match(/t/g).length;
+
+Question 10-
+let spaces = Math.floor((40 - title.length) / 2);
+title.padStart(spaces + title.length);

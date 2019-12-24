@@ -1,0 +1,32 @@
+Question 1-
+- The code will not raise an error.
+  Bonus- undefined
+
+Question 2-
+- str1.endsWith('!');
+
+Question 3-
+- ages.hasOwnProperty('Spot')
+
+Question 4-
+- newStr = munstersDescription.toLowerCase();
+  newStr = newStr[0].toUpperCase() + newStr.substring(1);
+
+Question 5-
+- true, then false
+
+Question 6-
+- Object.assign(ages, additionalAges);
+
+Question 7-
+- str1.includes('Dino')
+- str2.inclueds('Dino')
+
+Question 8-
+- fintstones.push('Dino')
+
+Question 9-
+- fintstones.push('Dino', 'Hoppy')
+
+Question 10-
+- advice.slice(0, advice.indexOf('house'))

@@ -1,0 +1,57 @@
+Question 1)
+- for loop from 0 - 9, print i spaces then str
+- for(let i = 0; i < 9; i++) {
+    console.log(' '.repeat(i) + 'The Flintstones Rock!');
+}
+
+Question 2)
+- split string into an array of characters
+- loop through array of characters
+- if char === char.toLowerCase() -> char = char.toUpperCase()
+  else- char = char.toLowerCase()
+
+  let munstersDescription = "The Munsters are creepy and spooky.";
+  let chars = munstersDescription.split('');
+  for(let i = 0; i < chars.length; i++) {
+    if (chars[i] === chars[i].toLowerCase()) {
+      chars[i] = chars[i].toUpperCase();
+    } else {
+      chars[i] = chars[i].toLowerCase();
+    }
+  }
+
+  result = chars.join('');
+  console.log(result);
+
+Question 3)
+- function factors(number) {
+  let divisor = number;
+  let factors = [];
+  while (divisor > 0) {
+    if (number % divisor === 0) {
+      factors.push(number / divisor);
+    }
+    divisor -= 1;
+  }
+  return factors;
+}
+
+Question 4)
+- The first implementation mutates the buffer while the second does not
+
+Question 5)
+
+Question 6)
+isNan()
+
+Question 7)
+-34
+
+Question 8)
+- Yes, while primitive values are immutable in JS, objects are mutable
+
+Question 9)
+- paper
+
+Question 10)
+- no
